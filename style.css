@@ -98,11 +98,13 @@ nav button:hover {
 
 /* hero section style end here  */
 
+/* learn development style start here  */
 .learn-dev-container {
   width: 1040px;
   height: 1140px;
   margin: 0 auto;
   padding-top: 70px;
+  border: 2px solid red;
 }
 .learn-dev-header {
   display: flex;
@@ -112,7 +114,7 @@ nav button:hover {
   text-align: center;
 }
 .learn-dev-header-title {
-  font-size: 33px;
+  font-size: 28px;
 }
 .learn-dev-header-describtion {
   width: 750px;
@@ -156,3 +158,33 @@ nav button:hover {
 .dev-main-image img {
   width: 220px;
 }
+
+/* learn development style end  */
+
+/* inspiration section style start here  */
+.inspire-container {
+  width: 1040px;
+  height: 790px;
+  border: 2px solid tomato;
+  margin: 70px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.inspire-content h1 {
+  padding-top: 20px;
+  font-size: 28px;
+  padding-bottom: 30px;
+}
+.inspire-content p {
+  font-size: 14px;
+  opacity: 0.7;
+  width: 750px;
+  padding-bottom: 120px;
+}
+.inspire-content iframe {
+  border-radius: 15px;
+}
+/* inspiration section style end here  */
