@@ -104,7 +104,6 @@ nav button:hover {
   height: 1140px;
   margin: 0 auto;
   padding-top: 70px;
-  border: 2px solid red;
 }
 .learn-dev-header {
   display: flex;
@@ -147,7 +146,6 @@ nav button:hover {
   text-decoration: none;
   background-color: rgb(255, 255, 255);
   border: none;
-  border: 1px solid rgba(13, 19, 33, 0.7);
   border-radius: 4px;
   cursor: pointer;
 }
@@ -165,7 +163,6 @@ nav button:hover {
 .inspire-container {
   width: 1040px;
   height: 790px;
-  border: 2px solid tomato;
   margin: 70px auto;
   display: flex;
   flex-direction: column;
@@ -195,7 +192,6 @@ nav button:hover {
   width: 1040px;
   height: 400px;
   margin: 0 auto;
-  border: 2px solid plum;
 }
 .target-header {
   text-align: center;
@@ -249,3 +245,66 @@ nav button:hover {
 }
 
 /* target section style end here  */
+
+/* footer section style start here  */
+
+.support-container {
+  width: 1040px;
+  height: 250px;
+  margin: 30px auto;
+  background: url(assets/handshake.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  text-align: center;
+}
+.support-content h1 {
+  padding-top: 50px;
+  font-size: 28px;
+  color: rgb(255, 255, 255);
+  padding-bottom: 10px;
+}
+.support-content p {
+  font-size: 14px;
+  opacity: 0.7;
+  padding-bottom: 35px;
+}
+/* form {
+  border-radius: 10px;
+} */
+form .input-text {
+  width: 300px;
+  height: 36px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 15px;
+  font-size: 12px;
+}
+form .input-btn {
+  width: 80px;
+  height: 36px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  transition: ease 400ms;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(13, 19, 33);
+}
+form .input-btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(13, 19, 33);
+}
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 12.2%;
+}
+.social {
+  padding-right: 25px;
+}
+.social img {
+  width: 28px;
+  margin-right: 4px;
+}
+/* footer section style end here  */
