@@ -18,6 +18,7 @@
 
 /* sheared style End here  */
 
+/* header section style start here  */
 .header {
   width: 100%;
   height: 70px;
@@ -40,18 +41,21 @@ nav button {
   border: none;
   border-radius: 4px;
   transition: ease 400ms;
+  cursor: pointer;
 }
 nav button:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(13, 19, 33);
   border: 1.5px solid black;
 }
+/* header section style end here  */
+
+/* hero section start here  */
 
 .hero-container {
   background: url(assets/Hero-bg.png);
   width: 1348px;
   height: 620px;
-  border: 1px solid brown;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -63,6 +67,7 @@ nav button:hover {
 }
 .hero-content img {
   padding-top: 70px;
+  width: 220px;
 }
 .hero-content .hero-title {
   padding: 20px;
@@ -73,7 +78,7 @@ nav button:hover {
   font-size: 14px;
   opacity: 0.7;
   font-weight: 400;
-  padding-bottom: 75px;
+  padding-bottom: 50px;
 }
 .hero-btn {
   padding: 14px 15px;
@@ -83,9 +88,71 @@ nav button:hover {
   border: none;
   border-radius: 4px;
   transition: ease 400ms;
+  cursor: pointer;
 }
 .hero-btn:hover {
   background-color: rgb(255, 255, 255);
   color: rgb(13, 19, 33);
   border: 1.5px solid black;
+}
+
+/* hero section style end here  */
+
+.learn-dev-container {
+  width: 1040px;
+  height: 1140px;
+  margin: 0 auto;
+  padding-top: 70px;
+}
+.learn-dev-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.learn-dev-header-title {
+  font-size: 33px;
+}
+.learn-dev-header-describtion {
+  width: 750px;
+  padding-top: 25px;
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: 400;
+}
+.learn-dev-main-container {
+  display: flex;
+  padding-top: 80px;
+  justify-content: space-around;
+  align-items: center;
+}
+.learn-dev-main-content {
+  width: 400px;
+}
+.dev-main-title {
+  padding-bottom: 16px;
+}
+.dev-main-describtion {
+  font-size: 14px;
+  opacity: 0.7;
+  font-weight: 400;
+  padding-bottom: 30px;
+}
+.learn-dev-main-content button {
+  padding: 9px 13px;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  border: 1px solid rgba(13, 19, 33, 0.7);
+  border-radius: 4px;
+  cursor: pointer;
+}
+.learn-dev-main-content button a {
+  text-decoration: none;
+  color: rgba(13, 19, 33, 0.7);
+}
+.dev-main-image img {
+  width: 220px;
 }
