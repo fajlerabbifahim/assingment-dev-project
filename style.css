@@ -188,3 +188,64 @@ nav button:hover {
   border-radius: 15px;
 }
 /* inspiration section style end here  */
+
+/* target section style start here  */
+
+.target-container {
+  width: 1040px;
+  height: 400px;
+  margin: 0 auto;
+  border: 2px solid plum;
+}
+.target-header {
+  text-align: center;
+}
+.target-header h1 {
+  font-size: 28px;
+  padding-bottom: 25px;
+}
+.target-header p {
+  font-size: 14px;
+  opacity: 0.7;
+  padding: 35px;
+}
+.target-content {
+  display: flex;
+  justify-content: space-around;
+}
+.target-item {
+  width: 300px;
+  height: 250px;
+  background: rgba(255, 76, 30, 0.05);
+  padding: 30px;
+  border-radius: 10px;
+}
+.target-item img {
+  width: 40px;
+}
+.target-item h4 {
+  font-size: 19px;
+  font-weight: 700;
+  padding-top: 10px;
+}
+.target-item p {
+  opacity: 0.7;
+  font-weight: 400;
+  font-size: 13px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.target-item button {
+  border: none;
+  background: none;
+  font-size: 14px;
+}
+.target-item button a {
+  color: black;
+}
+
+.item-bg-color {
+  background: rgba(0, 76, 232, 0.05);
+}
+
+/* target section style end here  */
